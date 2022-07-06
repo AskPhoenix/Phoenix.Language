@@ -22,14 +22,14 @@ namespace Phoenix.Language.Types {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class RoleResources {
+    public class RoleRankResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal RoleResources() {
+        internal RoleRankResources() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Phoenix.Language.Types {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Phoenix.Language.Types.Role.RoleResources", typeof(RoleResources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Phoenix.Language.Types.RoleRank.RoleRankResources", typeof(RoleRankResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

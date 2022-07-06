@@ -4,6 +4,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>3.0.0-alpha.1</Version>
+    <Authors>AskPhoenix</Authors>
+    <Company>AskPhoenix</Company>
+    <Copyright>AskPhoenix 2022</Copyright>
+    <PackageProjectUrl>https://www.askphoenix.gr/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AskPhoenix/Phoenix.Language</RepositoryUrl>
+    <Description>A library containing the language resources for AskPhoenix Bot</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -47,15 +54,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>DaypartResources.resx</DependentUpon>
     </Compile>
-    <Compile Update="Types\Role\RoleResources.el.Designer.cs">
-      <DependentUpon>RoleResources.el.resx</DependentUpon>
+    <Compile Update="Types\RoleRank\RoleRankResources.el.Designer.cs">
+      <DependentUpon>RoleRankResources.el.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="Types\Role\RoleResources.Designer.cs">
+    <Compile Update="Types\RoleRank\RoleRankResources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>RoleResources.resx</DependentUpon>
+      <DependentUpon>RoleRankResources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -100,14 +107,14 @@
       <LastGenOutput>DaypartResources.Designer.cs</LastGenOutput>
       <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
     </EmbeddedResource>
-    <EmbeddedResource Update="Types\Role\RoleResources.el.resx">
+    <EmbeddedResource Update="Types\RoleRank\RoleRankResources.el.resx">
       <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
-      <LastGenOutput>RoleResources.el.Designer.cs</LastGenOutput>
+      <LastGenOutput>RoleRankResources.el.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Types\Role\RoleResources.resx">
+    <EmbeddedResource Update="Types\RoleRank\RoleRankResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>RoleResources.Designer.cs</LastGenOutput>
+      <LastGenOutput>RoleRankResources.Designer.cs</LastGenOutput>
       <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
     </EmbeddedResource>
   </ItemGroup>
