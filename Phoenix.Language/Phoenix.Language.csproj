@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>3.0.0-alpha.1</Version>
+    <Version>3.0.0-alpha.2</Version>
     <Authors>AskPhoenix</Authors>
     <Company>AskPhoenix</Company>
     <Copyright>AskPhoenix 2022</Copyright>
@@ -14,6 +14,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="Types\BotAction\BotActionResources.el.Designer.cs">
+      <DependentUpon>BotActionResources.el.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Types\BotAction\BotActionResources.Designer.cs">
+      <DependentUpon>BotActionResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
     <Compile Update="Types\BotFeedbackCategory\BotFeedbackCategoryResources.el.Designer.cs">
       <DependentUpon>BotFeedbackCategoryResources.el.resx</DependentUpon>
       <DesignTime>True</DesignTime>
@@ -67,6 +77,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Types\BotAction\BotActionResources.el.resx">
+      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
+      <LastGenOutput>BotActionResources.el.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Types\BotAction\BotActionResources.resx">
+      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
+      <LastGenOutput>BotActionResources.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Types\BotFeedbackCategory\BotFeedbackCategoryResources.el.resx">
       <LastGenOutput>BotFeedbackCategoryResources.el.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
