@@ -144,10 +144,10 @@
   <data name="NoAction" xml:space="preserve">
     <value>Καμία ενέργεια</value>
   </data>
-  <data name="ScheduleDaily" xml:space="preserve">
+  <data name="ScheduleDay" xml:space="preserve">
     <value>Πρόγραμμα ημέρας</value>
   </data>
-  <data name="ScheduleWeekly" xml:space="preserve">
+  <data name="ScheduleWeek" xml:space="preserve">
     <value>Πρόγραμμα</value>
   </data>
   <data name="SearchExams" xml:space="preserve">

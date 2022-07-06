@@ -144,18 +144,18 @@ namespace Phoenix.Language.Types {
         /// <summary>
         ///   Looks up a localized string similar to Day Schedule.
         /// </summary>
-        public static string ScheduleDaily {
+        public static string ScheduleDay {
             get {
-                return ResourceManager.GetString("ScheduleDaily", resourceCulture);
+                return ResourceManager.GetString("ScheduleDay", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Week Schedule.
         /// </summary>
-        public static string ScheduleWeekly {
+        public static string ScheduleWeek {
             get {
-                return ResourceManager.GetString("ScheduleWeekly", resourceCulture);
+                return ResourceManager.GetString("ScheduleWeek", resourceCulture);
             }
         }
         

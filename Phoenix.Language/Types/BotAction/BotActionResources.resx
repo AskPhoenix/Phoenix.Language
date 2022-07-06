@@ -144,10 +144,10 @@
   <data name="NoAction" xml:space="preserve">
     <value>No action</value>
   </data>
-  <data name="ScheduleDaily" xml:space="preserve">
+  <data name="ScheduleDay" xml:space="preserve">
     <value>Day Schedule</value>
   </data>
-  <data name="ScheduleWeekly" xml:space="preserve">
+  <data name="ScheduleWeek" xml:space="preserve">
     <value>Week Schedule</value>
   </data>
   <data name="SearchExams" xml:space="preserve">
