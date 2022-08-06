@@ -123,6 +123,9 @@
   <data name="SchoolAdmin" xml:space="preserve">
     <value>School Admin</value>
   </data>
+  <data name="SchoolDeveloper" xml:space="preserve">
+    <value>School Developer</value>
+  </data>
   <data name="SchoolOwner" xml:space="preserve">
     <value>School Owner</value>
   </data>

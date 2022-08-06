@@ -79,6 +79,15 @@ namespace Phoenix.Language.Types {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to School Developer.
+        /// </summary>
+        public static string SchoolDeveloper {
+            get {
+                return ResourceManager.GetString("SchoolDeveloper", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to School Owner.
         /// </summary>
         public static string SchoolOwner {

@@ -123,6 +123,9 @@
   <data name="SchoolAdmin" xml:space="preserve">
     <value>Διαχειριστής</value>
   </data>
+  <data name="SchoolDeveloper" xml:space="preserve">
+    <value>Προγραμματιστής</value>
+  </data>
   <data name="SchoolOwner" xml:space="preserve">
     <value>Ιδιοκτήτης</value>
   </data>
