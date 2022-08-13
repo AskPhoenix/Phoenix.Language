@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>3.0.0-alpha.5</Version>
+    <Version>3.0.0-alpha.6</Version>
     <Authors>AskPhoenix</Authors>
     <Company>AskPhoenix</Company>
     <Copyright>AskPhoenix 2022</Copyright>
@@ -23,6 +23,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>SynonymsResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Bot\Types\DateLiteral\DateLiteralResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DateLiteralResources.resx</DependentUpon>
     </Compile>
     <Compile Update="Types\BotFeedbackCategory\BotFeedbackCategoryResources.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -60,6 +65,10 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>SynonymsResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Update="Bot\Types\DateLiteral\DateLiteralResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DateLiteralResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Update="Types\BotFeedbackCategory\BotFeedbackCategoryResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>BotFeedbackCategoryResources.Designer.cs</LastGenOutput>
@@ -80,6 +89,10 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>RoleRankResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Bot\Types\BotError\" />
   </ItemGroup>
 
 </Project>
