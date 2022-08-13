@@ -14,12 +14,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="Types\BotAction\BotActionResources.el.Designer.cs">
+    <Compile Update="Bot\Actions\BotAction\BotActionResources.el.Designer.cs">
       <DependentUpon>BotActionResources.el.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="Types\BotAction\BotActionResources.Designer.cs">
+    <Compile Update="Bot\Actions\BotAction\BotActionResources.Designer.cs">
       <DependentUpon>BotActionResources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -77,13 +77,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Types\BotAction\BotActionResources.el.resx">
-      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
+    <EmbeddedResource Update="Bot\Actions\BotAction\BotActionResources.el.resx">
+      <CustomToolNamespace>Phoenix.Language.Bot.Actions</CustomToolNamespace>
       <LastGenOutput>BotActionResources.el.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Types\BotAction\BotActionResources.resx">
-      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
+    <EmbeddedResource Update="Bot\Actions\BotAction\BotActionResources.resx">
+      <CustomToolNamespace>Phoenix.Language.Bot.Actions</CustomToolNamespace>
       <LastGenOutput>BotActionResources.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
