@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Version>3.0.0-alpha.5</Version>
     <Authors>AskPhoenix</Authors>
@@ -14,70 +14,35 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="Bot\Actions\BotAction\BotActionResources.el.Designer.cs">
-      <DependentUpon>BotActionResources.el.resx</DependentUpon>
+    <Compile Update="Bot\Types\BotAction\BotActionResources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-    </Compile>
-    <Compile Update="Bot\Actions\BotAction\BotActionResources.Designer.cs">
       <DependentUpon>BotActionResources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
     </Compile>
-    <Compile Update="Bot\Linguistic\CommandSynonymsResources.el.Designer.cs">
-      <DependentUpon>CommandSynonymsResources.el.resx</DependentUpon>
+    <Compile Update="Bot\Types\Command\SynonymsResources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-    </Compile>
-    <Compile Update="Bot\Linguistic\CommandSynonymsResources.Designer.cs">
-      <DependentUpon>CommandSynonymsResources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
-    <Compile Update="Types\BotFeedbackCategory\BotFeedbackCategoryResources.el.Designer.cs">
-      <DependentUpon>BotFeedbackCategoryResources.el.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
+      <DependentUpon>SynonymsResources.resx</DependentUpon>
     </Compile>
     <Compile Update="Types\BotFeedbackCategory\BotFeedbackCategoryResources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>BotFeedbackCategoryResources.resx</DependentUpon>
     </Compile>
-    <Compile Update="Types\BroadcastAudience\BroadcastAudienceResources.el.Designer.cs">
-      <DependentUpon>BroadcastAudienceResources.el.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
     <Compile Update="Types\BroadcastAudience\BroadcastAudienceResources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>BroadcastAudienceResources.resx</DependentUpon>
-    </Compile>
-    <Compile Update="Types\BroadcastVisibility\BroadcastVisibilityResources.el.Designer.cs">
-      <DependentUpon>BroadcastVisibilityResources.el.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
     </Compile>
     <Compile Update="Types\BroadcastVisibility\BroadcastVisibilityResources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>BroadcastVisibilityResources.resx</DependentUpon>
     </Compile>
-    <Compile Update="Types\Daypart\DaypartResources.el.Designer.cs">
-      <DependentUpon>DaypartResources.el.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
     <Compile Update="Types\Daypart\DaypartResources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>DaypartResources.resx</DependentUpon>
-    </Compile>
-    <Compile Update="Types\RoleRank\RoleRankResources.el.Designer.cs">
-      <DependentUpon>RoleRankResources.el.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
     </Compile>
     <Compile Update="Types\RoleRank\RoleRankResources.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -87,75 +52,33 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Bot\Actions\BotAction\BotActionResources.el.resx">
-      <CustomToolNamespace>Phoenix.Language.Bot.Actions</CustomToolNamespace>
-      <LastGenOutput>BotActionResources.el.Designer.cs</LastGenOutput>
+    <EmbeddedResource Update="Bot\Types\BotAction\BotActionResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Bot\Actions\BotAction\BotActionResources.resx">
-      <CustomToolNamespace>Phoenix.Language.Bot.Actions</CustomToolNamespace>
       <LastGenOutput>BotActionResources.Designer.cs</LastGenOutput>
-      <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Bot\Linguistic\CommandSynonymsResources.el.resx">
-      <CustomToolNamespace>Phoenix.Language.Bot.Linguistic</CustomToolNamespace>
-      <LastGenOutput>CommandSynonymsResources.el.Designer.cs</LastGenOutput>
+    <EmbeddedResource Update="Bot\Types\Command\SynonymsResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Bot\Linguistic\CommandSynonymsResources.resx">
-      <CustomToolNamespace>Phoenix.Language.Bot.Linguistic</CustomToolNamespace>
-      <LastGenOutput>CommandSynonymsResources.Designer.cs</LastGenOutput>
-      <Generator>PublicResXFileCodeGenerator</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Types\BotFeedbackCategory\BotFeedbackCategoryResources.el.resx">
-      <LastGenOutput>BotFeedbackCategoryResources.el.Designer.cs</LastGenOutput>
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
+      <LastGenOutput>SynonymsResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Types\BotFeedbackCategory\BotFeedbackCategoryResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>BotFeedbackCategoryResources.Designer.cs</LastGenOutput>
-      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Types\BroadcastAudience\BroadcastAudienceResources.el.resx">
-      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
-      <LastGenOutput>BroadcastAudienceResources.el.Designer.cs</LastGenOutput>
-      <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Types\BroadcastAudience\BroadcastAudienceResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>BroadcastAudienceResources.Designer.cs</LastGenOutput>
-      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Types\BroadcastVisibility\BroadcastVisibilityResources.el.resx">
-      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
-      <LastGenOutput>BroadcastVisibilityResources.el.Designer.cs</LastGenOutput>
-      <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Types\BroadcastVisibility\BroadcastVisibilityResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>BroadcastVisibilityResources.Designer.cs</LastGenOutput>
-      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Types\Daypart\DaypartResources.el.resx">
-      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
-      <LastGenOutput>DaypartResources.el.Designer.cs</LastGenOutput>
-      <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Types\Daypart\DaypartResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>DaypartResources.Designer.cs</LastGenOutput>
-      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Types\RoleRank\RoleRankResources.el.resx">
-      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
-      <LastGenOutput>RoleRankResources.el.Designer.cs</LastGenOutput>
-      <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Types\RoleRank\RoleRankResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>RoleRankResources.Designer.cs</LastGenOutput>
-      <CustomToolNamespace>Phoenix.Language.Types</CustomToolNamespace>
     </EmbeddedResource>
   </ItemGroup>
 

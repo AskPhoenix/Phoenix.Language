@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Phoenix.Language.Bot.Linguistic {
+namespace Phoenix.Language.Bot.Types.BotAction {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace Phoenix.Language.Bot.Linguistic {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class CommandSynonymsResources {
+    public class BotActionResources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal CommandSynonymsResources() {
+        internal BotActionResources() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Phoenix.Language.Bot.Linguistic {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Phoenix.Language.Bot.Linguistic.CommandSynonymsResources", typeof(CommandSynonymsResources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Phoenix.Language.Bot.Types.BotAction.BotActionResources", typeof(BotActionResources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,16 +61,34 @@ namespace Phoenix.Language.Bot.Linguistic {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to cancel, quit, exit.
+        ///   Looks up a localized string similar to Access.
         /// </summary>
-        public static string Cancel {
+        public static string Access {
             get {
-                return ResourceManager.GetString("Cancel", resourceCulture);
+                return ResourceManager.GetString("Access", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to exams, tests.
+        ///   Looks up a localized string similar to Assignments.
+        /// </summary>
+        public static string Assignments {
+            get {
+                return ResourceManager.GetString("Assignments", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Broadcast.
+        /// </summary>
+        public static string Broadcast {
+            get {
+                return ResourceManager.GetString("Broadcast", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exams.
         /// </summary>
         public static string Exams {
             get {
@@ -79,7 +97,7 @@ namespace Phoenix.Language.Bot.Linguistic {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to exercises, homework.
+        ///   Looks up a localized string similar to Exercises.
         /// </summary>
         public static string Exercises {
             get {
@@ -88,7 +106,7 @@ namespace Phoenix.Language.Bot.Linguistic {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to feedback.
+        ///   Looks up a localized string similar to Feedback.
         /// </summary>
         public static string Feedback {
             get {
@@ -97,16 +115,16 @@ namespace Phoenix.Language.Bot.Linguistic {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to hi, hello.
+        ///   Looks up a localized string similar to Grades.
         /// </summary>
-        public static string Greeting {
+        public static string Grades {
             get {
-                return ResourceManager.GetString("Greeting", resourceCulture);
+                return ResourceManager.GetString("Grades", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to help.
+        ///   Looks up a localized string similar to Help.
         /// </summary>
         public static string Help {
             get {
@@ -115,38 +133,56 @@ namespace Phoenix.Language.Bot.Linguistic {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to menu, home, start.
+        ///   Looks up a localized string similar to No action.
         /// </summary>
-        public static string Home {
+        public static string NoAction {
             get {
-                return ResourceManager.GetString("Home", resourceCulture);
+                return ResourceManager.GetString("NoAction", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to logout.
+        ///   Looks up a localized string similar to Day Schedule.
         /// </summary>
-        public static string Logout {
+        public static string ScheduleDay {
             get {
-                return ResourceManager.GetString("Logout", resourceCulture);
+                return ResourceManager.GetString("ScheduleDay", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to reset.
+        ///   Looks up a localized string similar to Week Schedule.
         /// </summary>
-        public static string Reset {
+        public static string ScheduleWeek {
             get {
-                return ResourceManager.GetString("Reset", resourceCulture);
+                return ResourceManager.GetString("ScheduleWeek", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to schedule, program.
+        ///   Looks up a localized string similar to Exam Search.
         /// </summary>
-        public static string Schedule {
+        public static string SearchExams {
             get {
-                return ResourceManager.GetString("Schedule", resourceCulture);
+                return ResourceManager.GetString("SearchExams", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exercise Search.
+        /// </summary>
+        public static string SearchExercises {
+            get {
+                return ResourceManager.GetString("SearchExercises", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Supplementary.
+        /// </summary>
+        public static string Supplementary {
+            get {
+                return ResourceManager.GetString("Supplementary", resourceCulture);
             }
         }
     }

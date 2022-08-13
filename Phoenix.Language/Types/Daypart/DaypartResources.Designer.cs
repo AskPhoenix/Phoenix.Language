@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Phoenix.Language.Types {
+namespace Phoenix.Language.Types.Daypart {
     using System;
     
     
