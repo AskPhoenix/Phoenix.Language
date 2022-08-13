@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>3.0.0-alpha.7</Version>
+    <Version>3.0.0-alpha.8</Version>
     <Authors>AskPhoenix</Authors>
     <Company>AskPhoenix</Company>
     <Copyright>AskPhoenix 2022</Copyright>
@@ -23,6 +23,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>ErrorMessageResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Bot\Types\BotError\ErrorResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ErrorResources.resx</DependentUpon>
     </Compile>
     <Compile Update="Bot\Types\BotError\ErrorSolutionResources.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -77,6 +82,10 @@
     <EmbeddedResource Update="Bot\Types\BotError\ErrorMessageResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ErrorMessageResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Bot\Types\BotError\ErrorResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ErrorResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Bot\Types\BotError\ErrorSolutionResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
