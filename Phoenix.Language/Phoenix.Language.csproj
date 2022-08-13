@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>3.0.0-alpha.4</Version>
+    <Version>3.0.0-alpha.5</Version>
     <Authors>AskPhoenix</Authors>
     <Company>AskPhoenix</Company>
     <Copyright>AskPhoenix 2022</Copyright>
@@ -21,6 +21,16 @@
     </Compile>
     <Compile Update="Bot\Actions\BotAction\BotActionResources.Designer.cs">
       <DependentUpon>BotActionResources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Bot\Linguistic\CommandSynonymsResources.el.Designer.cs">
+      <DependentUpon>CommandSynonymsResources.el.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Bot\Linguistic\CommandSynonymsResources.Designer.cs">
+      <DependentUpon>CommandSynonymsResources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
@@ -85,6 +95,16 @@
     <EmbeddedResource Update="Bot\Actions\BotAction\BotActionResources.resx">
       <CustomToolNamespace>Phoenix.Language.Bot.Actions</CustomToolNamespace>
       <LastGenOutput>BotActionResources.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Bot\Linguistic\CommandSynonymsResources.el.resx">
+      <CustomToolNamespace>Phoenix.Language.Bot.Linguistic</CustomToolNamespace>
+      <LastGenOutput>CommandSynonymsResources.el.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Bot\Linguistic\CommandSynonymsResources.resx">
+      <CustomToolNamespace>Phoenix.Language.Bot.Linguistic</CustomToolNamespace>
+      <LastGenOutput>CommandSynonymsResources.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Types\BotFeedbackCategory\BotFeedbackCategoryResources.el.resx">
