@@ -124,6 +124,15 @@ namespace Phoenix.Language.Bot.Types.BotError {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Course does not exist anymore..
+        /// </summary>
+        public static string CourseNotValid {
+            get {
+                return ResourceManager.GetString("CourseNotValid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to There are no affiliated users found for your account..
         /// </summary>
         public static string ParentHasNoAffiliations {
@@ -160,7 +169,7 @@ namespace Phoenix.Language.Bot.Types.BotError {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Unfortunatelly, an unknown error occured..
+        ///   Looks up a localized string similar to Unfortunatelly, an error occured..
         /// </summary>
         public static string Unknown {
             get {

@@ -129,6 +129,9 @@
   <data name="AuthMaxFails" xml:space="preserve">
     <value>Contact your school to unlock your account and try again.</value>
   </data>
+  <data name="CourseNotValid" xml:space="preserve">
+    <value>Please select another course.</value>
+  </data>
   <data name="Default" xml:space="preserve">
     <value>Please contact your school in order to resolve the problem.</value>
   </data>

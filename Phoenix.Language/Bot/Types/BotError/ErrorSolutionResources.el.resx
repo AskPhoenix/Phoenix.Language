@@ -129,6 +129,9 @@
   <data name="AuthMaxFails" xml:space="preserve">
     <value>Επικοινωνήστε με το σχολείο/κέντρο σας, ώστε να ξεκλειδώσουν το λογαριασμό σας και να προσπαθήσετε να συνδεθείτε εκ νέου.</value>
   </data>
+  <data name="CourseNotValid" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε ένα άλλο μάθημα.</value>
+  </data>
   <data name="Default" xml:space="preserve">
     <value>Παρακαλώ επικοινωνήστε με το σχολείο/κέντρο σας για την επίλυση του προβλήματος.</value>
   </data>

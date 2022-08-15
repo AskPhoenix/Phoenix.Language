@@ -138,6 +138,9 @@
   <data name="CourseHasNoLectures" xml:space="preserve">
     <value>There are no lectures for the selected course yet.</value>
   </data>
+  <data name="CourseNotValid" xml:space="preserve">
+    <value>Course does not exist anymore.</value>
+  </data>
   <data name="ParentHasNoAffiliations" xml:space="preserve">
     <value>There are no affiliated users found for your account.</value>
   </data>
@@ -151,7 +154,7 @@
     <value>There is no school found associated with this page.</value>
   </data>
   <data name="Unknown" xml:space="preserve">
-    <value>Unfortunatelly, an unknown error occured.</value>
+    <value>Unfortunatelly, an error occured.</value>
   </data>
   <data name="UserHasNoExams" xml:space="preserve">
     <value>There are no exams added yet to any course.</value>

@@ -97,6 +97,15 @@ namespace Phoenix.Language.Bot.Types.BotError {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Please select another course..
+        /// </summary>
+        public static string CourseNotValid {
+            get {
+                return ResourceManager.GetString("CourseNotValid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please contact your school in order to resolve the problem..
         /// </summary>
         public static string Default {

@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>3.0.0-alpha.8</Version>
+    <Version>3.0.0-alpha.9</Version>
     <Authors>AskPhoenix</Authors>
     <Company>AskPhoenix</Company>
     <Copyright>AskPhoenix 2022</Copyright>

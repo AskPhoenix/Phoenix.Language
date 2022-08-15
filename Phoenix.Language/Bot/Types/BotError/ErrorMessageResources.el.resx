@@ -138,6 +138,9 @@
   <data name="CourseHasNoLectures" xml:space="preserve">
     <value>Δεν υπάρχουν ακόμη διαλέξεις για αυτό το μάθημα.</value>
   </data>
+  <data name="CourseNotValid" xml:space="preserve">
+    <value>Το μάθημα δεν υπάρχει πλέον.</value>
+  </data>
   <data name="ParentHasNoAffiliations" xml:space="preserve">
     <value>Δε βρέθηκαν συσχετισμένοι χρήστες με τον λογαριασμό σας.</value>
   </data>
@@ -151,7 +154,7 @@
     <value>Δε βρέθηκε συσχετισμένο σχολείο/κέντρο με τη συγκεκριμένη σελίδα.</value>
   </data>
   <data name="Unknown" xml:space="preserve">
-    <value>Δυστυχώς προέκυψε ένα άγνωστο σφάλμα.</value>
+    <value>Δυστυχώς προέκυψε ένα σφάλμα.</value>
   </data>
   <data name="UserHasNoExams" xml:space="preserve">
     <value>Δεν έχουν προστεθεί ακόμη διαγωνίσματα για κάποιο μάθημα.</value>
